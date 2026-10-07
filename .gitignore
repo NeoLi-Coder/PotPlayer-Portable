@@ -1,0 +1,20 @@
+# 本机运行组件、配置和编译产物只放 Releases。
+/Data/
+/Backups/
+/Exports/
+/x64/
+/madVR/
+/Icaros/
+/ico/
+/work/
+/release/
+/outputs/
+/.vs/
+/bin/
+/obj/
+*.exe
+*.zip
+*.partial-*
+*.log
+*.tmp
+/.idea/
