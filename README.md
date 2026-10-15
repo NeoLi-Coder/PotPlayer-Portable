@@ -6,9 +6,13 @@ Windows x64 PotPlayer 便携包，包含播放器、madVR、LAV、字幕组件�
 
 前往 [Releases 下载完整程序](https://github.com/NeoLi-Coder/PotPlayer-Portable/releases/latest)。
 
-下载 `PotPlayer-Portable-2026.10.07.zip`，解压后保留完整目录结构。`SHA256SUMS.txt` 提供压缩包的 SHA-256 校验值。
+下载 `PotPlayer-Portable-20261015.zip`，解压后保留完整目录结构。`SHA256SUMS.txt` 提供压缩包的 SHA-256 校验值。
 
 本仓库只保留介绍页面，程序通过 Releases 提供；Code → Download ZIP 不包含播放器。
+
+## 2026.10.15 更新
+
+- 修复长按右方向键倍速播放问题，倍速设置不再依赖播放器的速度调节步长。
 
 ## 首次使用
 
@@ -25,7 +29,7 @@ Windows x64 PotPlayer 便携包，包含播放器、madVR、LAV、字幕组件�
 - 完整便携包和配置包的 ZIP / 文件夹导出，以及配置导入。
 - 从管理窗口或 `PotPlayerPortable.exe` 启动后，短按右方向键快进，按住约 0.3 秒进入 3 倍速，松开恢复 1 倍速。
 
-长按倍速依赖播放器 0.1 倍的倍速调节步长；直接运行 `x64/PotPlayerMini64.exe` 不会启用按键工具。
+倍速通过播放器原生消息直接设置，不依赖速度调节步长；松开固定恢复 1 倍速。直接运行 `x64/PotPlayerMini64.exe` 不会启用按键工具。
 
 ## 配置说明
 
@@ -33,7 +37,7 @@ Windows x64 PotPlayer 便携包，包含播放器、madVR、LAV、字幕组件�
 
 随包 madVR 预设针对 RX 6700、2560×1440 / 120Hz 显示输出。换设备后请检查显示器、HDR、音频与解码设置；该预设并非适合所有设备。
 
-发布 ZIP 使用最后保存的配置，排除旧备份及播放记录。工具编译与 ZIP 文件校验已通过，跨电脑播放、组件登记及长按交互尚未验证。
+跨电脑播放、组件登记及长按交互需在实际使用环境中验证。
 
 ## 第三方版权
 
